@@ -4,5 +4,6 @@ matplotlib==3.4.3
 streamlit==1.24.0
 holidays==0.13
 plotly==5.4.0
-pystan==2.19.1.1  # Prophet requires this version of pystan
+pystan
 prophet==1.1
+Cython>=0.22
