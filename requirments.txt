@@ -1,5 +1,5 @@
 pandas
 numpy
-prophet
+fbprophet
 matplotlib
 streamlit
