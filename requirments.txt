@@ -1,6 +1,6 @@
 pandas==1.5.3
 numpy==1.24.3
-prophet==1.1.1
+prophet==1.1.5
 pystan==2.19.1.1
 cmdstanpy==1.0.4
 matplotlib==3.7.1
