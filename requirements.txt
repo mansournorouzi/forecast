@@ -1,5 +1,5 @@
 pandas==2.2.2
-numpy==1.21.0  # Use a version of NumPy that is compatible with Prophet
+numpy==1.23.2  # Use a version of NumPy that is compatible with Prophet
 matplotlib==3.4.3
 streamlit==1.24.0
 holidays==0.11.3.1
