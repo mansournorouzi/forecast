@@ -1,5 +1,6 @@
 pandas
 numpy
-fbprophet
+prophet==1.1.1
+pystan==2.19.1.1
 matplotlib
 streamlit
