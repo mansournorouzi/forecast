@@ -7,13 +7,6 @@ st.write("Installed packages:")
 result = subprocess.run([sys.executable, '-m', 'pip', 'list'], capture_output=True, text=True)
 st.code(result.stdout)
 
-try:
-    import prophet
-    st.write(f"Prophet version: {prophet.__version__}")
-except ImportError:
-    st.error("Prophet is not installed or cannot be imported.")
-
-
 import pandas as pd
 import numpy as np
 from prophet import Prophet
