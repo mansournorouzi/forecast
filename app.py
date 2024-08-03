@@ -1,12 +1,4 @@
 import streamlit as st
-import sys
-import subprocess
-
-st.write("Python version:", sys.version)
-st.write("Installed packages:")
-result = subprocess.run([sys.executable, '-m', 'pip', 'list'], capture_output=True, text=True)
-st.code(result.stdout)
-
 import pandas as pd
 import numpy as np
 from prophet import Prophet
