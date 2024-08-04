@@ -1,4 +1,5 @@
 setuptools
+streamlit
 pandas==2.2.2
 numpy==1.23.2
 Cython>=0.22
